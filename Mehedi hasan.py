@@ -1,7 +1,6 @@
 import os
 import sys
 import time
-import requests
 import uuid
 try:
         import os,requests,json,time,re,random,sys,uuid,string,subprocess
