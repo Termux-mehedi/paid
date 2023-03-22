@@ -26,7 +26,6 @@ except ModuleNotFoundError:
     os.system('pip install mechanize requests futures bs4==2 > /dev/null')
     os.system('pip install bs4')
 import requests,bs4,json,os,sys,random,datetime,time,re
-import urllib3,rich,base64
 import requests,zlib,platform
 from rich.table import Table as me
 from rich.console import Console as sol
